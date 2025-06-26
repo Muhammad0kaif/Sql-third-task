@@ -1,0 +1,17 @@
+SELECT * FROM students;
+select *from book;
+SELECT name, age FROM students;
+
+SELECT * FROM students WHERE age > 20;
+SELECT * FROM students WHERE age BETWEEN 20 AND 23;
+SELECT * FROM students WHERE name LIKE 'K%';
+SELECT * FROM students WHERE name = 'Kaif' OR age < 21;
+
+SELECT * FROM Book WHERE s_id IS NOT NULL;
+
+
+SELECT * FROM students ORDER BY age ASC;
+
+SELECT * FROM students ORDER BY name DESC;
+
+
